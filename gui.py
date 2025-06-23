@@ -27,7 +27,7 @@ class ImageEncryptorGUI:
         controls = tk.Frame(self.root, bg="#121212")
         controls.pack(pady=10)
 
-        tk.Button(controls, text="📂 Load Image", command=self.load_image, bg="#1e1e1e", fg="#00ffaa", width=15).grid(row=0, column=0, padx=10)
+        tk.Button(controls, text="📂 Select Image", command=self.load_image, bg="#1e1e1e", fg="#00ffaa", width=15).grid(row=0, column=0, padx=10)
         tk.Button(controls, text="🔐 Encrypt (Shift)", command=lambda: self.run_thread(self.encrypt_shift), bg="#1e1e1e", fg="#ffaa00", width=18).grid(row=0, column=1, padx=10)
         tk.Button(controls, text="🔐 Encrypt (Swap)", command=lambda: self.run_thread(self.encrypt_swap), bg="#1e1e1e", fg="#ffaa00", width=18).grid(row=0, column=2, padx=10)
         tk.Button(controls, text="🔓 Decrypt (Shift)", command=lambda: self.run_thread(self.decrypt_shift), bg="#1e1e1e", fg="#00ffff", width=18).grid(row=0, column=3, padx=10)
