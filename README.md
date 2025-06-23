@@ -57,10 +57,11 @@ pip install pillow
 
 ```
 ImageEncryptionTool/
-├── gui.py                # Main GUI logic
+├── READNE.md             # This file
 ├── encryptor.py          # All encryption/decryption logic
-├── assets/               # Optional: store sample images
-├── README.md             # This file
+├── gui.py                # all gui logics
+├── main.py               # main logic
+├── screenshot            # smaple image
 ```
 
 ---
