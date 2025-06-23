@@ -38,9 +38,6 @@ All pixel values are flattened and shuffled using a fixed random seed, which ens
 │ Original Image   |  Result Image      │
 └─────────────────────────────┘
 ```
-
-> Clean, symmetric layout designed for clarity and usability.
-
 ---
 
 ## 🧾 Requirements
